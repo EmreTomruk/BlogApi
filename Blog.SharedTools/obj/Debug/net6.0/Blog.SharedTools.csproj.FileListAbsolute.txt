@@ -1,0 +1,11 @@
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\bin\Debug\net6.0\Blog.SharedTools.deps.json
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\bin\Debug\net6.0\Blog.SharedTools.dll
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\bin\Debug\net6.0\ref\Blog.SharedTools.dll
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\bin\Debug\net6.0\Blog.SharedTools.pdb
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.AssemblyInfoInputs.cache
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.AssemblyInfo.cs
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.csproj.CoreCompileInputs.cache
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.dll
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\ref\Blog.SharedTools.dll
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.pdb
