@@ -25,7 +25,12 @@
       "ProjectGuid": "be79f03f-0338-41b3-9c33-92e341bf1244",
       "DisplayName": "Blog.Service",
       "ColorIndex": 3
+    },
+    "c11033ba-cabd-48e8-9712-b7cc591e04ee": {
+      "ProjectGuid": "c11033ba-cabd-48e8-9712-b7cc591e04ee",
+      "DisplayName": "Blog.SharedTools",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

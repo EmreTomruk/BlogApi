@@ -29,5 +29,21 @@ namespace Blog.API.Controllers
 
             return Ok(user);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Register(UserDto userDto)
+        {
+            bool userBool = await _userService.IsUniqueUser(userDto.UserName);
+
+            if (!userBool)
+                return BadRequest(new {message="Kullanıcı adı zaten mevcut..."});
+
+            var user = await _userService.Register(userDto.UserName, userDto.Password);
+
+            if (user==null)
+                return BadRequest(new { message = "Kayıt esnasında hata oluştu..." });
+
+            return Ok(user);
+        } 
     }
 }

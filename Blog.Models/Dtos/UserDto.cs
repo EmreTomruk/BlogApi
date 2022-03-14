@@ -10,6 +10,7 @@ namespace Blog.Models.Dtos
     {
         public string UserName { get; set; }
         public string Password { get; set; }
-        //public string Role { get; set; }
+        public string Role { get; set; } = "Admin";
+        public bool Confirmation { get; set; } = false;
     }
 }

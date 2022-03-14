@@ -9,3 +9,4 @@ C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.Shared
 C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.dll
 C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\ref\Blog.SharedTools.dll
 C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.pdb
+C:\Users\user\source\Repos\BlogApi\Blog.SharedTools\obj\Debug\net6.0\Blog.SharedTools.csproj.AssemblyReference.cache

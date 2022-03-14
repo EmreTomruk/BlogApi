@@ -2,6 +2,7 @@
 using Blog.Models;
 using Blog.Models.Dtos;
 using Blog.Service.Abstract;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +20,7 @@ namespace Blog.API.Controllers
             _categoryService = categoryService;
             _mapper = mapper;
         }
-
+        //[Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {

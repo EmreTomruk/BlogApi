@@ -79,13 +79,14 @@ namespace Blog.Data.Repository.Concrete
             {
                 UserName = userName,
                 Password = password,
-                //Role = "Admin"
+                Role = "Admin",
+                Confirmation = false
             };
 
             var user = _mapper.Map<User>(userDto);
             await _dbSet.AddAsync(user); //_context.Users.Add(user); 2 kullanim sekli de olabilr...
             await _context.SaveChangesAsync();
-            user.Password = String.Empty;
+            //user.Password = String.Empty;
 
             return user;
         }

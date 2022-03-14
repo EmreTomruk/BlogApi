@@ -70,3 +70,4 @@ C:\Users\user\source\Repos\BlogApi\Blog.API\bin\Debug\net6.0\Blog.Service.pdb
 C:\Users\user\source\Repos\BlogApi\Blog.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\user\source\Repos\BlogApi\Blog.API\bin\Debug\net6.0\Blog.SharedTools.dll
 C:\Users\user\source\Repos\BlogApi\Blog.API\bin\Debug\net6.0\Blog.SharedTools.pdb
+C:\Users\user\source\Repos\BlogApi\Blog.API\bin\Debug\net6.0\Blog.xml
