@@ -59,6 +59,7 @@ namespace Blog.Data.Repository.Concrete
             var token = tokenHandler.CreateToken(tokenDescriptor);
             user.Token = tokenHandler.WriteToken(token);
             user.Password = String.Empty;
+            user.FullName = "Admin_" + userName;
 
             return user;
         }
@@ -79,12 +80,12 @@ namespace Blog.Data.Repository.Concrete
             {
                 UserName = userName,
                 Password = password,
-                Role = "Admin",
-                Confirmation = false
+                //Role = "Admin",
+                //Confirmation = false
             };
 
             var user = _mapper.Map<User>(userDto);
-            await _dbSet.AddAsync(user); //_context.Users.Add(user); 2 kullanim sekli de olabilr...
+            await _dbSet.AddAsync(user); /*_context.Users.AddAsync(user); 2 kullanim sekli de olabilr...*/
             await _context.SaveChangesAsync();
             //user.Password = String.Empty;
 

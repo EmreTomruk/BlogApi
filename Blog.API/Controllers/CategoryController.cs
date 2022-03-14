@@ -20,7 +20,7 @@ namespace Blog.API.Controllers
             _categoryService = categoryService;
             _mapper = mapper;
         }
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
