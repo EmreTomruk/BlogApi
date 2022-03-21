@@ -15,34 +15,34 @@ namespace Blog.SharedTools
     {
         public void Configure(SwaggerGenOptions options)
         {
-            options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-            {
-                Description = "JWT Kimlik doğrulama için bu alan kullanilabilir. Bearer on ekini yazdiktan sonra bir bosluk birakarak token girisi yapabilirsiniz. Ornegin => Bearer mytoken",
-                Name= "Authorization",
-                In=ParameterLocation.Header,
-                Type=SecuritySchemeType.ApiKey,
-                Scheme="Bearer"
-            });
-            options.AddSecurityRequirement(new OpenApiSecurityRequirement()
-            {
-                {
-                    new OpenApiSecurityScheme
-                    {
-                        Reference=new OpenApiReference
-                        {
-                            Type=ReferenceType.SecurityScheme,
-                            Id="Bearer"
-                        },
-                        Scheme="oauth2",
-                        Name="Bearer",
-                        In=ParameterLocation.Header
-                    },
-                    new List<string>()
-                }
-            });
-            var xmlFileComment = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"; //
-            var xmlFullPath = Path.Combine(AppContext.BaseDirectory, xmlFileComment);
-            options.IncludeXmlComments(xmlFullPath);
+            ////options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+            ////{
+            ////    Description = "JWT Kimlik doğrulama için bu alan kullanilabilir. Bearer on ekini yazdiktan sonra bir bosluk birakarak token girisi yapabilirsiniz. Ornegin => Bearer mytoken",
+            ////    Name= "Authorization",
+            ////    In=ParameterLocation.Header,
+            ////    Type=SecuritySchemeType.ApiKey,
+            ////    Scheme="Bearer"
+            ////});
+            ////options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+            ////{
+            ////    {
+            ////        new OpenApiSecurityScheme
+            ////        {
+            ////            Reference=new OpenApiReference
+            ////            {
+            ////                Type=ReferenceType.SecurityScheme,
+            ////                Id="Bearer"
+            ////            },
+            ////            Scheme="oauth2",
+            ////            Name="Bearer",
+            ////            In=ParameterLocation.Header
+            ////        },
+            ////        new List<string>()
+            ////    }
+            ////});
+            ////var xmlFileComment = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml"; //
+            ////var xmlFullPath = Path.Combine(AppContext.BaseDirectory, xmlFileComment);
+            ////options.IncludeXmlComments(xmlFullPath);
         }
     }
 }

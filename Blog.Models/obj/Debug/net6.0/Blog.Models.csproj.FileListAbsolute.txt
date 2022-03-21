@@ -9,4 +9,3 @@ C:\Users\user\source\Repos\BlogApi\Blog.Models\obj\Debug\net6.0\Blog.Models.cspr
 C:\Users\user\source\Repos\BlogApi\Blog.Models\obj\Debug\net6.0\Blog.Models.dll
 C:\Users\user\source\Repos\BlogApi\Blog.Models\obj\Debug\net6.0\ref\Blog.Models.dll
 C:\Users\user\source\Repos\BlogApi\Blog.Models\obj\Debug\net6.0\Blog.Models.pdb
-C:\Users\user\source\Repos\BlogApi\Blog.Models\obj\Debug\net6.0\Blog.Models.csproj.AssemblyReference.cache

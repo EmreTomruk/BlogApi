@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Blog.API.Controllers
 {
+    [Authorize]
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class CategoryController : ControllerBase
